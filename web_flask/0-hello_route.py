@@ -7,12 +7,12 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-	"""
-	function that returns Hello HBNB!.
-	"""
-	return "Hello HBNB!"
+    """
+    function that returns Hello HBNB!.
+    """
+    return "Hello HBNB!"
 
 
 if __name__ == "__main__":
-	app.url_map.sctict_stashes = False
-	app.run(host="0.0.0.0", port=5000)
+    app.url_map.sctict_stashes = False
+    app.run(host="0.0.0.0", port=5000)
